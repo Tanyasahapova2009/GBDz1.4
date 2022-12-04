@@ -1,20 +1,10 @@
-Console.WriteLine("Введите а="); int number(1) = Convert.ToInt32(Console.ReadLine()); 
-Console.WriteLine("Введите в="); int number(2) = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите c="); int number(3) = Convert.ToInt32(Console.ReadLine());
-int a = 3;
-int init = 0;
-int max = 0
+Console.WriteLine("Введите а="); int a = Convert.ToInt32(Console.ReadLine()); 
+Console.WriteLine("Введите в="); int b = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите c="); int c = Convert.ToInt32(Console.ReadLine());
 
-if ( init > a ) 
+int max = a;
 
-{
-    init +=1
-    if (max > number(init))
-    {
-        max = number(init)
-    }
-}
-else
-{
+if ( b > max ) max = b;
+if ( c > max ) max = c;
+
     Console.WriteLine("max="); Console.WriteLine(max);
-}
